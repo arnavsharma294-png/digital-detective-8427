@@ -13,7 +13,7 @@ Created the required mission folders, READMEs, `hello.py`, and `number_converter
 - [x] Each mission committed separately and pushed to GitHub.
 - [x] `update-about` branch pushed.
 - [ ] Pull Request from `update-about` into `main` created; record its URL/status in Mission 6.
-- [ ] Live network observation recorded.
+- [x] Live network observation recorded for public `example.com`.
 - [ ] Personal review and rewrite in the student's own words.
 - [ ] GitHub repository confirmed public and latest files visible.
 - [ ] Repository URL submitted through the instructor's form.
@@ -27,7 +27,7 @@ File listing and version checks; Python 3; Git; GitHub. Verify the actual commit
 A final review checks both content and publication. Local files do not prove that a remote repository contains the work, and a URL is not submitted until it is entered into the instructor’s form.
 
 ## 5. Difficulties faced
-The mission commits and `update-about` branch were pushed and verified. The Pull Request and instructor-form submission remain incomplete.
+The mission commits and `update-about` branch were pushed and verified. The Pull Request and instructor-form submission remain incomplete. A public example.com DNS lookup and connectivity test were also recorded.
 
 ## 6. How I resolved them
 Create the Pull Request using the supplied repository, verify the public page, then submit its URL using the instructor’s form.

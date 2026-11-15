@@ -15,7 +15,7 @@ Explain network concepts, describe safe connectivity/DNS observations, and outli
 | Packet switching | Breaks data into packets sent across networks. | Web request/response traffic |
 | Client-server | A client requests a service; a server provides it. | Browser requesting a page |
 
-A connectivity test can indicate whether a destination responds over the tested route and protocol; a failed ping alone does not prove a website is down because ICMP may be blocked. A DNS lookup shows returned DNS records such as addresses, which can vary by resolver, time and network. No successful live DNS/connectivity observation is recorded here; run `ping -c 1 example.com` and `nslookup example.com` locally and record only public example-domain results.
+A connectivity test can indicate whether a destination responds over the tested route and protocol; a failed ping alone does not prove a website is down because ICMP may be blocked. A DNS lookup shows returned DNS records such as addresses, which can vary by resolver, time and network. Observed with `nslookup example.com`: two IPv4 addresses were returned (`104.20.23.154` and `172.66.147.243`). A one-packet `ping -c 1 example.com` received one reply with 0% packet loss and about 10.4 ms round-trip time. Results can vary by resolver and time; these are public example-domain results, not the computer’s private network details.
 
 ### What happens when a website opens
 1. The user enters a domain name in a browser, which acts as the client.
@@ -27,16 +27,16 @@ A connectivity test can indicate whether a destination responds over the tested 
 7. The browser processes the response and displays the page to the user.
 
 ## 3. Commands / tools used
-`ping` can test network reachability; `nslookup` can request DNS information. These have not been run successfully in this draft environment.
+`ping` can test network reachability; `nslookup` can request DNS information. For the recorded observation, `ping` received a reply and `nslookup` returned two A records for the public example domain.
 
 ## 4. My understanding
 DNS lets people use names instead of memorizing numeric addresses. Routers forward packets, while protocols define how clients and servers exchange requests and responses. Network failures can occur at different steps, so one test does not explain every failure.
 
 ## 5. Difficulties faced
-A live DNS lookup could not be confirmed in the current environment.
+No major difficulties; the first sandboxed lookup was blocked, so the commands were run with network access enabled.
 
 ## 6. How I resolved them
-Run the lookup and connectivity test from the computer/network used for the assignment, and record the results without personal IP or Wi-Fi details.
+Not applicable; only public example.com results were recorded.
 
 ## 7. Evidence / files
 This README; add only privacy-safe public-domain lookup observations if required.
