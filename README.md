@@ -29,3 +29,7 @@ The project connects basic ideas: input data is processed and stored; the operat
 Each mission is documented separately. The mission commits and `update-about` branch have been pushed to the supplied GitHub repository. The Pull Request has not yet been created; use the comparison link provided separately, then submit the repository URL through the instructor’s form.
 
 > Draft note: this content was prepared with AI assistance. Verify the machine-specific observations and personalize the explanations before submission, as required by the assignment.
+
+## My Learning
+
+I learned to trace a task through input, processing, output and storage; convert numbers between decimal, binary and hexadecimal; and use Git commits to keep a reviewable project history. I also learned that a Pull Request lets collaborators discuss a proposed change.
