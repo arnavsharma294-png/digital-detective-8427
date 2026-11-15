@@ -10,9 +10,9 @@ Explore the OS, processes, storage, paths and permissions, and describe OS respo
 | OS / system | Platform and release | macOS 27.2 (observed here) |
 | Current account | Which user is active | Not included to avoid publishing an account name |
 | Storage | Used and available space | About 111 GiB used and 323 GiB available on the observed volume; may change over time |
-| System activity | Snapshot of running work | Use Activity Monitor or `ps` locally; process list not captured in this draft |
+| System activity | Snapshot of running work | `ps -ax` showed system processes such as `launchd` (PID 1) and `logd` (PID 529); process names recorded without account details |
 
-A process is a running program or task. A PID is its numeric process identifier, used by the OS to distinguish processes. Examples include a browser and a text editor.
+A process is a running program or task. A PID is its numeric process identifier, used by the OS to distinguish processes. The snapshot included `launchd` and `logd`, which are background system processes.
 
 An absolute path starts at the filesystem root, such as `/Users/<account>/Downloads/digital-detective-8427/mission-03-operating-system/`. A relative path is interpreted from the current folder, such as `mission-03-operating-system/` when starting from the repository root.
 
@@ -33,19 +33,19 @@ An absolute path starts at the filesystem root, such as `/Users/<account>/Downlo
 | Security and permissions | Controls access to accounts, files and devices. | Restricting edits to an owned file |
 
 ## 3. Commands / tools used
-`sw_vers` reports macOS details; `df -h` reports filesystem capacity; `ps` or Activity Monitor can show processes; `pwd`, `cd` and `ls -l` help inspect paths and permissions. Verify observations on the computer used for submission.
+`sw_vers` reported macOS 27.2; `df -h` showed about 111 GiB used and 323 GiB available; `ps -ax | head -n 8` showed the process snapshot. `pwd` and `cd ..` showed the working location change from `.../mission-02-terminal/terminal-practice` to `.../mission-02-terminal`. `ls -l` showed mode `-rw-r--r--` for the practice text file: its owner can read and write, but not execute it.
 
 ## 4. My understanding
 The OS coordinates applications and hardware. Processes are active instances of programs; permissions describe what actions users can take. Absolute paths identify a location from the root, while relative paths depend on where navigation starts.
 
 ## 5. Difficulties faced
-The process snapshot and file permission observation have not been captured for this draft.
+No major difficulties.
 
 ## 6. How I resolved them
-Use Activity Monitor or `ps` and `ls -l` inside the repository practice area, then record privacy-safe observations.
+Not applicable.
 
 ## 7. Evidence / files
-This README; add a redacted process and permission observation if required by your instructor.
+This README; process and permissions were observed in the repository practice area.
 
 ## 8. Commit details
-Suggested message: `Document operating system and file management`. Push and verify on GitHub.
+Commit: `Document operating system and file management`. The mission commit was pushed to GitHub.

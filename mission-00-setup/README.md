@@ -16,10 +16,10 @@ Created the nine mission folders, this root README, and the converter file locat
 A repository is a project folder whose changes Git can track. Separating work into mission folders makes each activity easier to find, review and commit. These version details were observed in the current environment; verify that this is the computer/account you intend to use.
 
 ## 5. Difficulties faced
-The assignment repository is not yet confirmed as connected to this local folder.
+The remote repository had an initial README commit, so the local mission history needed to be based on that existing history.
 
 ## 6. How I resolved them
-Prepared the local structure under the exact repository name. The remote was checked, and the `main` and `update-about` branches were pushed successfully.
+Kept the existing initial README commit, based the mission commits on it, and pushed the `main` and `update-about` branches successfully.
 
 ## 7. Evidence / files
 Root `README.md` and mission folders 00–08.
