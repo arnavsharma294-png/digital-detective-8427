@@ -26,6 +26,6 @@ From this repository, run `python3 mission-05-numbers-data/number_converter.py`,
 
 The project connects basic ideas: input data is processed and stored; the operating system manages shared hardware; programs represent and transform data; and networks let clients request services from servers. Git records the project’s changes so they can be reviewed.
 
-Each mission is documented separately. The local draft has not been published or pushed. The assignment requires a separate visible GitHub commit for every mission and an `update-about` branch and Pull Request; complete and verify those activities using the supplied repository before submitting.
+Each mission is documented separately. The mission commits and `update-about` branch have been pushed to the supplied GitHub repository. The Pull Request has not yet been created; use the comparison link provided separately, then submit the repository URL through the instructor’s form.
 
 > Draft note: this content was prepared with AI assistance. Verify the machine-specific observations and personalize the explanations before submission, as required by the assignment.

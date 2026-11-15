@@ -26,16 +26,16 @@ Pull Request title: `Add My Learning section to the project README`.
 `git status`, `git add`, `git commit`, `git log`, `git branch`, `git switch`, `git push` and `git pull` are the core operations. GitHub hosts the remote repository and Pull Request review.
 
 ## 4. My understanding
-Git commits are local records until they are pushed to a remote. Branches let someone work separately, and a Pull Request presents the change for review. This draft documents the workflow but does not claim a real remote push or Pull Request.
+Git commits are local records until they are pushed to a remote. Branches let someone work separately, and a Pull Request presents the change for review. The `main` and `update-about` branches were pushed to the supplied remote. A Pull Request still needs to be opened and its actual URL and status recorded.
 
 ## 5. Difficulties faced
-Remote access and the actual branch/PR state have not been verified in this draft.
+The branches were published successfully; the Pull Request has not been created because GitHub CLI authentication is unavailable in this environment.
 
 ## 6. How I resolved them
-Use the supplied GitHub repository, push the `update-about` branch, open a Pull Request into `main`, and record its actual URL and status here. Merge only if the instructor requests it.
+Open the compare link for `update-about` into `main`, create the Pull Request, and record its actual URL and status here. Merge only if the instructor requests it.
 
 ## 7. Evidence / files
 This README; add the real Pull Request URL or a privacy-safe screenshot after creating it.
 
 ## 8. Commit details
-Suggested message: `Complete Git and GitHub collaboration mission`. Actual commit and push status must be verified.
+Commit: `Complete Git and GitHub collaboration mission`. Mission commit and branch push completed; Pull Request remains pending.

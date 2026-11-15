@@ -19,10 +19,10 @@ A repository is a project folder whose changes Git can track. Separating work in
 The assignment repository is not yet confirmed as connected to this local folder.
 
 ## 6. How I resolved them
-Prepared the local structure under the exact repository name. The GitHub remote and push must be checked with the account owner before claiming publication.
+Prepared the local structure under the exact repository name. The remote was checked, and the `main` and `update-about` branches were pushed successfully.
 
 ## 7. Evidence / files
 Root `README.md` and mission folders 00–08.
 
 ## 8. Commit details
-Suggested message: `Set up Digital Detective mission structure`. Local/GitHub commit and push status must be completed and verified by the student.
+Commit: `Set up Digital Detective mission structure`. The mission commits are visible in the pushed `main` history.

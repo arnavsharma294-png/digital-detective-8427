@@ -10,8 +10,9 @@ Created the required mission folders, READMEs, `hello.py`, and `number_converter
 - [x] Mission folders 00–08 and mission README files created locally.
 - [x] Root README and converter instructions included.
 - [x] Number conversions and three sample converter cases documented.
-- [ ] Each mission committed separately and pushed to GitHub.
-- [ ] `update-about` branch pushed and Pull Request created; record real status in Mission 6.
+- [x] Each mission committed separately and pushed to GitHub.
+- [x] `update-about` branch pushed.
+- [ ] Pull Request from `update-about` into `main` created; record its URL/status in Mission 6.
 - [ ] Live network observation recorded.
 - [ ] Personal review and rewrite in the student's own words.
 - [ ] GitHub repository confirmed public and latest files visible.
@@ -26,13 +27,13 @@ File listing and version checks; Python 3; Git; GitHub. Verify the actual commit
 A final review checks both content and publication. Local files do not prove that a remote repository contains the work, and a URL is not submitted until it is entered into the instructor’s form.
 
 ## 5. Difficulties faced
-The local files are prepared, but remote publication and instructor-form submission have not been completed or verified.
+The mission commits and `update-about` branch were pushed and verified. The Pull Request and instructor-form submission remain incomplete.
 
 ## 6. How I resolved them
-Connect this folder to the supplied GitHub repository, complete the per-mission pushes and Pull Request workflow, verify the public page, then submit its URL using the instructor’s form.
+Create the Pull Request using the supplied repository, verify the public page, then submit its URL using the instructor’s form.
 
 ## 7. Evidence / files
 All mission folders and root `README.md`; `hello.py`; `number_converter.py`.
 
 ## 8. Commit details
-Suggested message: `Complete final report and verify assignment submission`. Record the actual commit hash and remote verification after the student completes those steps.
+Commit: `Complete final report and verify assignment submission`. A follow-up commit records the verified pushes and remaining Pull Request/form steps.
